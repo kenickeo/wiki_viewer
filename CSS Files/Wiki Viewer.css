@@ -1,0 +1,164 @@
+/*Wiki Search Engine*/
+
+html, body {
+
+	
+	margin: 0;
+	padding: 0;
+	height: 0;
+	background-color: #1DF6FF;
+	background-size: cover;
+
+
+
+}
+img {
+   
+	background-color: #1DF6FF;
+}
+
+.logo {
+
+	position: relative;
+	top: 180px;
+	left: 480px;
+}
+
+.logo p {
+
+    color: #325DFF;
+	position: relative;
+	left: 30px;
+}
+input {
+
+    color: #1DF6FF;
+	border: 2px solid rgba(0, 0, 0,0);
+	background-color: #4F15E8;
+	width: 95%;
+}
+
+
+#clear {
+    
+    color: blue;
+	width: 30%;
+	position: relative;
+	top: 250px;
+	left: 450px;
+}
+
+#clear:hover {
+
+text-decoration: none;
+
+}
+.fa {
+
+	font-size: 20px;
+}
+
+.box {
+
+    color: #1DF6FF;
+	padding: 10px 15px;
+	width: 50%;
+	border-radius: 5px;
+	background-color: #4F15E8;
+	position: relative;
+	top: 250px;
+	left: 300px;
+}
+
+.fa-close:hover {
+
+	cursor: pointer;
+}
+
+.display{
+    
+	position: relative;
+	top: 250px;
+	left: 200px;
+}
+
+#remove {
+
+	color: #1DF6FF;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#remove:hover {
+
+	cursor: pointer;
+}
+.text {
+    
+
+    color: black;
+    font-family: Advent Pro;
+    background-color: #4F15E8;
+    text-align: center;
+    margin: 50px;
+    padding: 75px 400px;
+    width: 120%;
+    border-radius: 400px;
+    position: relative;
+	top: -10px;
+	left: -400px;
+}
+
+	a {
+
+		color: #1DF6FF;
+		position: relative;
+		top: -30px;
+	}
+
+   
+.description {
+
+	color: #9BFF0D;
+	position: relative;
+	top: -175px;
+	left: -150px;
+}
+
+@media (max-width: 500px){
+
+	#clear {
+       
+		width: 300px;
+		position: relative;
+		left: 440px;
+	}
+
+	.box {
+
+		width: 400px;
+		position: relative;
+		left: 370px;
+	}
+
+	.display {
+
+		position: relative;
+		left: 520px;
+	}
+
+.text{
+
+		width: 120%;
+	}
+
+	#remove {
+
+	
+		display: inline-block;
+		width: 450px;
+		position: relative;
+		left: -200px;
+	}
+}
